@@ -1,6 +1,6 @@
-package Abertura_do_pedido;
+package Abertura_do_pedido.Abertura_do_pedido;
 
-import Conta.Conta;
+import Abertura_do_pedido.Abertura_do_pedido.Conta.Conta;
 
 public class Cliente extends Conta {
     private String email;

@@ -1,4 +1,4 @@
-package Abertura_do_pedido;
+package Abertura_do_pedido.Abertura_do_pedido;
 
 public class Produto {
     private String nomeDoProduto;
@@ -10,10 +10,12 @@ public class Produto {
     }
 
     public String getNomeDoProduto() {
+
         return nomeDoProduto;
     }
 
     public void setNomeDoProduto(String nomeDoProduto) {
+
         this.nomeDoProduto = nomeDoProduto;
     }
 
