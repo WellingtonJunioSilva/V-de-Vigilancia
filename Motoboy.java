@@ -16,6 +16,11 @@ public class Motoboy extends Conta {
 
     }
 
+    public Motoboy(String carlosSilva, String cpf, String telefone, String senha) {
+        super(carlosSilva, cpf, telefone, senha);
+        placaVeiculo = "";
+    }
+
     public void adicionarSaldo(double v) {
 
     }

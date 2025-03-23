@@ -12,7 +12,7 @@ public class Pedido {
     private double valorFrete;
     private StatusEntrega status;
 
-    public Pedido(Cliente cliente, double peso, double distancia, double tempoEstimado) {
+    public Pedido(Cliente cliente, Motoboy motoboySelecionado, double peso, double distancia, double tempoEstimado) {
         this.cliente = cliente;
         this.peso = peso;
         this.distancia = distancia;
@@ -46,5 +46,9 @@ public class Pedido {
             this.status = StatusEntrega.FINALIZADA;
             motoboy.adicionarSaldo(valorFrete * 0.7); // 70% do valor para o motoboy
         }
+    }
+
+    public boolean detalhesPedido() {
+        return false;
     }
 }

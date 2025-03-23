@@ -7,8 +7,7 @@ public class Cliente extends Conta {
     private String endereco;
     private String cep;
 
-    public Cliente(String nome, String cpf, String telefone, String senha, String endereco,String cep,
-                   String email) {
+    public Cliente(String nome, String cpf, String telefone, String senha) {
         super(nome, cpf, telefone, senha);
         this.email = email;
         this.endereco = endereco;
